@@ -1,0 +1,718 @@
+{
+  "schema_version": 1,
+  "database": "Shai-Hulud / ChainDrop malicious file hashes",
+  "updated_utc": "2026-08-06T06:20:00Z",
+  "entry_count": 65,
+  "instructions": [
+    "Add new objects at the end of the hashes array.",
+    "Supported algorithms are SHA256 and SHA1.",
+    "Use filenames when known so the scanner hashes that name anywhere on selected drives.",
+    "Generic names such as index.js, main.js, package.json, settings.json, tasks.json, and bundle.js are not forced globally; keep Deep package-script hashing enabled for those files.",
+    "Entries are loaded at startup and before every scan; no rebuild is required.",
+    "Invalid entries are skipped and recorded only when the scanner is launched with --debug. Built-in hashes remain active.",
+    "The final SHA1 entry is a harmless detection test for a file named testfile.js containing the documented test text."
+  ],
+  "hashes": [
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "de0e25a3e6c1e1e5998b306b7141b3dc4c0088da9d7bb47c1c00c91e6e4f85d6",
+      "description": "Original Shai-Hulud bundle.js variant, September 14 batch",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "81d2a004a1bca6ef87a1caf7d0e0b355ad1764238e40ff6d1b1cb77ad4f595c3",
+      "description": "Original Shai-Hulud bundle.js variant, September 14 18:35 batch",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "83a650ce44b2a9854802a7fb4c202877815274c129af49e6c2d1d5d5d55c501e",
+      "description": "Original Shai-Hulud bundle.js variant, September 14 large batch",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "4b2399646573bb737c4969563303d8ee2e9ddbd1b271f1ca9e35ea78062538db",
+      "description": "Original Shai-Hulud bundle.js variant, September 14-15 batch",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "dc67467a39b70d1cd4c1f7f7a459b35058163592f4a9e8fb4dffcbba98ef210c",
+      "description": "Original Shai-Hulud bundle.js variant, September 15 repeated batches",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "46faab8ab153fae6e80e7cca38eab363075bb524edd79e42269217a083628f09",
+      "description": "Original Shai-Hulud bundle.js variant, September 15-16 batches",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "b74caeaa75e077c99f7d44f46daaf9796a3be43ecf24f2a1fd381844669da777",
+      "description": "Original Shai-Hulud bundle.js variant, CrowdStrike batch",
+      "campaign": "Shai-Hulud September 2025",
+      "source": "https://socket.dev/blog/ongoing-supply-chain-attack-targets-crowdstrike-npm-packages",
+      "filenames": [
+        "bundle.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "a3894003ad1d293ba96d77881ccd2071446dc3f65f434669b49b3da92421901a",
+      "description": "Shai-Hulud 2 setup_bun.js loader",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "setup_bun.js",
+        "bun_installer.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "62ee164b9b306250c1172583f138c9614139264f889fa99614903c12755468d0",
+      "description": "Shai-Hulud 2 bun_environment.js payload variant",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "bun_environment.js",
+        "environment_source.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "f099c5d9ec417d4445a0328ac0ada9cde79fc37410914103ae9c609cbc0ee068",
+      "description": "Shai-Hulud 2 bun_environment.js payload variant",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "bun_environment.js",
+        "environment_source.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "cbb9bc5a8496243e02f3cc080efbe3e4a1430ba0671f2e43a202bf45b05479cd",
+      "description": "Shai-Hulud 2 bun_environment.js payload variant",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "bun_environment.js",
+        "environment_source.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "d60ec97eea19fffb4809bc35b91033b52490ca11",
+      "description": "Shai-Hulud 2 bun_environment.js SHA-1 variant",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "bun_environment.js",
+        "environment_source.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "3d7570d14d34b0ba137d502f042b27b0f37a59fa",
+      "description": "Shai-Hulud 2 bun_environment.js SHA-1 variant",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "bun_environment.js",
+        "environment_source.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "d1829b4708126dcc7bea7437c04d1f10eacd4a16",
+      "description": "Shai-Hulud 2 setup_bun.js SHA-1 loader",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.koi.ai/incident/live-updates-sha1-hulud-the-second-coming-hundred-npm-packages-compromised",
+      "filenames": [
+        "setup_bun.js",
+        "bun_installer.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "ab4fcadaec49c03278063dd269ea5eef82d24f2124a8e15d7b90f2fa8601266c",
+      "description": "Mini Shai-Hulud router_init.js payload",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://www.stepsecurity.io/blog/mini-shai-hulud-is-back-a-self-spreading-supply-chain-attack-hits-the-npm-ecosystem",
+      "filenames": [
+        "router_init.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "2ec78d556d696e208927cc503d48e4b5eb56b31abc2870c2ed2e98d6be27fc96",
+      "description": "Mini Shai-Hulud tanstack_runner.js payload",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://www.stepsecurity.io/blog/mini-shai-hulud-is-back-a-self-spreading-supply-chain-attack-hits-the-npm-ecosystem",
+      "filenames": [
+        "tanstack_runner.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "7c12d8614c624c70d6dd6fc2ee289332474abaa38f70ebe2cdef064923ca3a9b",
+      "description": "Malicious @tanstack/setup package.json",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://www.stepsecurity.io/blog/mini-shai-hulud-is-back-a-self-spreading-supply-chain-attack-hits-the-npm-ecosystem",
+      "filenames": [
+        "package.json"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "a68dd1e6a6e35ec3771e1f94fe796f55dfe65a2b94560516ff4ac189390dfa1c",
+      "description": "Mini Shai-Hulud atool/AntV obfuscated Bun payload",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/",
+      "filenames": [
+        "index.js",
+        "router_init.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "d8e3973a0b3c5359d1f53a22491b56bdd31dee13a51c01c7126bc6694584512f",
+      "description": "art-template compromise stage-two loader",
+      "campaign": "Related package compromise 2025-2026",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/",
+      "filenames": [
+        "jia.js",
+        "art.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "f31bdd069fe7966ae11be1f78ee5dd44445938856dd1df12379e0e84a6851f5c",
+      "description": "art-template compromise stage-four loader",
+      "campaign": "Related package compromise 2025-2026",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/",
+      "filenames": [
+        "49554fde7424c31c.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "069ac1dc7f7649b76bc72a11ac700f373804bfd81dab7e561157b703999f44ce",
+      "description": "durabletask PyPI stage-two rope.pyz payload",
+      "campaign": "TeamPCP durabletask May 2026",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/",
+      "filenames": [
+        "rope.pyz"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "96097e0612d9575cb133021017fb1a5c68a03b60f9f3d24ebdc0e628d9034144",
+      "description": "node-ipc malicious node-ipc.cjs entrypoint",
+      "campaign": "TeamPCP node-ipc May 2026",
+      "source": "https://securitylabs.datadoghq.com/articles/npm-worm-compromises-popular-npm-packages/",
+      "filenames": [
+        "node-ipc.cjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "e7347d90653efc565f03733a95e9209d78f9cfa81e31ff2b2dd9d48d75a4b8b1",
+      "description": "Nx Console compromise obfuscated index.js payload",
+      "campaign": "TeamPCP Nx Console May 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "b0cefb66b953e5184b6adb3035e9e267335ac5eabfe1848e07834777b9397b74",
+      "description": "Nx Console compromise malicious main.js payload",
+      "campaign": "TeamPCP Nx Console May 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "main.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "1a4afce34918bdc74ae3f31edaffffaa0ee074d83618f53edfd88137927340b8",
+      "description": "Nx Console malicious VSIX bundle",
+      "campaign": "TeamPCP Nx Console May 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "nx-console.vsix"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "c539766062555d47716f8432e73adbe3a0c0c954a0b6c4005017a668975e275c",
+      "description": "Hades/Miasma Python startup hook",
+      "campaign": "Miasma/Hades June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "setup.pth"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "dc48b09b2a5954f7ff79ab8a2fd80202bd3b59c08c7cdbc6025aa923cb4c0efe",
+      "description": "Hades/Miasma _index.js loader variant",
+      "campaign": "Miasma/Hades June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "_index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "e1342a80d4b5e83d2c7c22e1e0aaa95f2d88e3dbf0d853a4994b180c93a4b17d",
+      "description": "Hades/Miasma _index.js loader variant",
+      "campaign": "Miasma/Hades June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "_index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "32d1bc728d8e504952083a6adc488c309a401c7df4dc8f47b382ce32e4aebe21",
+      "description": "Miasma LeoPlatform malicious binding.gyp trigger",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "binding.gyp"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "57ba86f6f0caaa580c1dccdf4ed7873d1470e5ea2f8e9ca7a989dc04899f13c0",
+      "description": "Miasma LeoPlatform leo-logger index.js payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "4a0aa78757958683155a7b9289427fb829abcad1bf5ee6399eb73e8409b0bc11",
+      "description": "Miasma LeoPlatform malicious package.json",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "package.json"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "026588d39b7c650b5c0dfbba6c6fcc0e7ec8e3b72ba8639012e7f71c708f2c3b",
+      "description": "Miasma LeoPlatform leo-sdk index.js payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "df9ea0c71574e11c93141ad2f018a63a5375cd6d69ca2f744732ad7814170657",
+      "description": "Miasma LeoPlatform leo-auth index.js payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "1a3b9ed0b377f56f49b9a703612cf45e86ab7d100587e1e7a476d809fe337a8c",
+      "description": "Miasma LeoPlatform leo-aws index.js payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "15b415ae41df72acf1f7e9e67569531d41dee62d089d34b4c0fab0c7fe5cc14f",
+      "description": "Miasma .claude/index.js obfuscated payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "6cb3fc3650355973b8a1ed86619a3f412fb0700f29c1c3a736cada4c2c76a9f7",
+      "description": "Miasma .claude/.vscode setup.mjs Bun launcher",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "6a861a479f45fe53f067091414332248bc027ffc396116811d12e57a6ff71250",
+      "description": "Miasma malicious .claude/settings.json auto-run configuration",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "settings.json"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "927387d0cfac1118df4b383decc2ea6ba49c9d2f98b47098bcbcba1efc026e1f",
+      "description": "Miasma malicious .vscode/tasks.json folder-open execution",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "tasks.json"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "1a0e1daeaea87cab5610a3cc2aa72e7c6f1abfe55959a156368bcfa6585fa6ce",
+      "description": "Miasma decoded first-stage JavaScript",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js",
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "ceff7c51d70832c3ec8dd2744b606a23b3c924ef664ae23439b9b742ea154108",
+      "description": "Miasma decrypted Bun bootstrap payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "9f93d77d32833a515bc406c46da477142bb1ac2babeecb6aa42f98669a6db015",
+      "description": "Miasma decrypted main payload",
+      "campaign": "Miasma LeoPlatform June 2026",
+      "source": "https://github.com/Cobenian/shai-hulud-detect",
+      "filenames": [
+        "index.js",
+        "math_init.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "54dc7ea54a1317cca0e890a2770630cf7fa6c97813e0cb9d2caa93012b350668",
+      "description": "ChainDrop setup.mjs npm tarball preinstall loader",
+      "campaign": "ChainDrop August 2026",
+      "source": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "fd3ca4007b225fdf8de7af4345a19179d5efa8c4bb9205f88cda806e5684b1eb",
+      "description": "ChainDrop setup.mjs repository and editor persistence loader",
+      "campaign": "ChainDrop August 2026",
+      "source": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "9fc2570b7cef51c1b8df116d144d11ff4096357be7d2c4c6367cfc2509cf1bcc",
+      "description": "ChainDrop Math_Symbol.js / math_init.js Bun stage-two payload",
+      "campaign": "ChainDrop August 2026",
+      "source": "https://research.jfrog.com/post/shai-hulud-is-back-august/",
+      "filenames": [
+        "Math_Symbol.js",
+        "math_init.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "14eb4ce01dd4307759887ff819359b70d7d9ff709ecde039a5abc1aac325b128",
+      "description": "ChainDrop .claude/settings.json persistence configuration",
+      "campaign": "ChainDrop August 2026",
+      "source": "https://www.stepsecurity.io/blog/chaindrop-npm-worm",
+      "filenames": [
+        "settings.json"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "ce7e4199506959fd7a71b64209b2c07b9c82e53a946aa7d78298dc9249230d01",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "449e4265979b5fdb2d3446c021af437e815debd66de7da2fe54f1ad93cbcc75e",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "c2f4dc64aec4631540a568e88932b61daebbfb7e8281b812fa01b7215f9be9ea",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "78a82d93b4f580835f5823b85a3d9ee1f03a15ee6f0e01b4eac86252a7002981",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "3427a90c8cb9af764445448648176e120ebc6af0a538158340cf6220de4d01b7",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "fdba4191831a13debf9d8c0c940b0301c7b7f01d27f1b1c73ed3ceaa2db4103b",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "3de04fe2a76262743ed089efa7115f4508619838e77d60b9a1aab8b20d2cc8bf",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "85f54c089d78ebfb101454ec934c767065a342a43c9ee1beac8430cdd3b2086f",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "c0b094e46842260936d4b97ce63e4539b99a3eae48b736798c700217c52569dc",
+      "description": "SafeDep campaign malicious file IOC",
+      "campaign": "Mini Shai-Hulud / related TeamPCP wave",
+      "source": "https://safedep.io/ti/campaigns/mini-shai-hulud/"
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "2258284d65f63829bd67eaba01ef6f1ada2f593f9bbe41678b2df360bd90d3df",
+      "description": "Mini Shai-Hulud TanStack setup.mjs loader",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "e7d582b98ca80690883175470e96f703ef6dc497",
+      "description": "Mini Shai-Hulud router_init.js / tanstack_runner.js payload SHA-1",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+      "filenames": [
+        "router_init.js",
+        "tanstack_runner.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "12f35b1081b17d21815b35feb57ab03d02482116",
+      "description": "Mini Shai-Hulud TanStack setup.mjs loader SHA-1",
+      "campaign": "Mini Shai-Hulud May 2026",
+      "source": "https://www.wiz.io/blog/mini-shai-hulud-strikes-again-tanstack-more-npm-packages-compromised",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "4066781fa830224c8bbcc3aa005a396657f9c8f9016f9a64ad44a9d7f5f45e34",
+      "description": "Mini Shai-Hulud SAP setup.mjs Bun loader",
+      "campaign": "Mini Shai-Hulud SAP wave April 2026",
+      "source": "https://www.stepsecurity.io/blog/a-mini-shai-hulud-has-appeared",
+      "filenames": [
+        "setup.mjs"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "80a3d2877813968ef847ae73b5eeeb70b9435254e74d7f07d8cf4057f0a710ac",
+      "description": "Mini Shai-Hulud SAP execution.js payload from mbt@1.2.48",
+      "campaign": "Mini Shai-Hulud SAP wave April 2026",
+      "source": "https://www.stepsecurity.io/blog/a-mini-shai-hulud-has-appeared",
+      "filenames": [
+        "execution.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA256",
+      "digest": "6f933d00b7d05678eb43c90963a80b8947c4ae6830182f89df31da9f568fea95",
+      "description": "Mini Shai-Hulud SAP execution.js payload from @cap-js/sqlite",
+      "campaign": "Mini Shai-Hulud SAP wave April 2026",
+      "source": "https://www.stepsecurity.io/blog/a-mini-shai-hulud-has-appeared",
+      "filenames": [
+        "execution.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "8de87cf4fbdd1b490991a1ceb9c1198013d268c2",
+      "description": "Shai-Hulud 2.0 bun_environment.js payload variant SHA-1",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.sentinelone.com/blog/defending-against-sha1-hulud-the-second-coming/",
+      "filenames": [
+        "bun_environment.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "f37c6179739cf47e60280dd78cb1a86fd86a2dcf",
+      "description": "Shai-Hulud 2.0 bun_environment.js payload variant SHA-1",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.sentinelone.com/blog/defending-against-sha1-hulud-the-second-coming/",
+      "filenames": [
+        "bun_environment.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "91429fbfef99fa52b6386d666e859707a07844b2",
+      "description": "Shai-Hulud 2.0 bun_environment.js payload variant SHA-1",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.sentinelone.com/blog/defending-against-sha1-hulud-the-second-coming/",
+      "filenames": [
+        "bun_environment.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "ba08d2fcc6cd1c16e4022c5b7af092a4034ceedc",
+      "description": "Shai-Hulud 2.0 bun_environment.js payload variant SHA-1",
+      "campaign": "Shai-Hulud 2.0 November 2025",
+      "source": "https://www.sentinelone.com/blog/defending-against-sha1-hulud-the-second-coming/",
+      "filenames": [
+        "bun_environment.js"
+      ]
+    },
+    {
+      "enabled": true,
+      "algorithm": "SHA1",
+      "digest": "92a88981f1594c193bb66040e9c1782a6ce22cf6",
+      "description": "Test file with known text content",
+      "campaign": "Scanner detection test",
+      "source": "TEST FILE EICAR TRIGGER",
+      "filenames": [
+        "testfile.js"
+      ]
+    }
+  ]
+}

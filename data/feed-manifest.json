@@ -1,0 +1,57 @@
+{
+  "generated_utc": "2026-08-05T22:08:46Z",
+  "feeds": {
+    "Socket": {
+      "url": "https://socket.dev/api/public/supply-chain-attacks/keyv-and-cacheable-compromise/packages.csv",
+      "file": "socket-chaindrop.csv",
+      "sha256": "f6c4fe0a240ed14ae3e5589473786f5ace232d603852777bc4e91ef201e1ad8c",
+      "source_mask": 1
+    },
+    "SafeDep": {
+      "url": "https://safedep.io/ti/campaigns/mini-shai-hulud.csv",
+      "file": "safedep-mini-shai-hulud.csv",
+      "sha256": "f382e9907b7fe79842ec19bfda9271c4409f3017b66a1b8fd1c387ceeea12a55",
+      "source_mask": 2
+    },
+    "Wiz": {
+      "url": "https://raw.githubusercontent.com/wiz-sec-public/wiz-research-iocs/refs/heads/main/reports/shai-hulud-2-packages.csv",
+      "file": "wiz-shai-hulud-2-packages.csv",
+      "sha256": "c387da01db86108e43cafb756c901290631ceb98891db885e438e2fd239f1cd7",
+      "source_mask": 4
+    },
+    "Datadog": {
+      "url": "https://raw.githubusercontent.com/DataDog/indicators-of-compromise/refs/heads/keyv-campaign/keyv-campaign/malicious-packages.csv",
+      "file": "datadog-keyv-malicious-packages.csv",
+      "sha256": "9cc9b3aec5a967952e7cd1550affc77429d070870f5aaaea1193c8af0cecd911",
+      "source_mask": 8
+    },
+    "StepSecurity": {
+      "url": "https://agent.api.stepsecurity.io/v1/application/oss-packages/npm/ai-scan-results",
+      "file": "chaindrop-compromised-packages.csv",
+      "sha256": "b72a2bee02c780d961b9e76c4ff123b77df53d77e35de37a2760bf8cc86528b1",
+      "source_mask": 16
+    },
+    "JFrog": {
+      "url": "https://research.jfrog.com/shai_hulud_2_packages.csv",
+      "file": "jfrog-shai-hulud-2-packages.csv",
+      "sha256": "31a92a676151690f0fc963321b0be8395ce52b3ed411bbbcfb948c5265206d7a",
+      "source_mask": 32
+    },
+    "CommunityAggregate": {
+      "url": "https://raw.githubusercontent.com/Cobenian/shai-hulud-detect/main/compromised-packages.txt",
+      "file": "community-shai-hulud-aggregate.csv",
+      "sha256": "e1417ca719a5b515a29e2addb0fe1d215b7a91b0f16ef44fa392dba664e91de2",
+      "source_mask": 64
+    }
+  },
+  "package_name_version_pairs": 5727,
+  "ecosystem_package_names": 2372,
+  "ecosystems": {
+    "npm": 5658,
+    "golang": 13,
+    "pypi": 53,
+    "composer": 3
+  },
+  "file_hash_indicators": 23,
+  "text_network_indicators": 21
+}

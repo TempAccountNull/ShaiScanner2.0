@@ -1,0 +1,32 @@
+#include <windows.h>
+#include "resource.h"
+
+IDI_SHAIHULUD_APP ICON "shaihulud.ico"
+
+1 VERSIONINFO
+ FILEVERSION 1,7,6,0
+ PRODUCTVERSION 1,7,6,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Local Security Research\0"
+            VALUE "FileDescription", "Shai-Hulud 2.0 Scanner\0"
+            VALUE "FileVersion", "1.7.6\0"
+            VALUE "InternalName", "ShaiHulud2Scanner\0"
+            VALUE "OriginalFilename", "ShaiHulud2Scanner.exe\0"
+            VALUE "ProductName", "Shai-Hulud 2.0 Scanner\0"
+            VALUE "ProductVersion", "1.7.6\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END

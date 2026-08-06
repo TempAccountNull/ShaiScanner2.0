@@ -1,0 +1,48 @@
+name: Build Windows scanner
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "src/**"
+      - "data/**"
+      - "tests/**"
+      - "tools/**"
+      - "CMakeLists.txt"
+      - "build-release.bat"
+      - "malicious_hashes.json"
+
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare pinned Dear ImGui once
+        shell: pwsh
+        run: ./tools/prepare_imgui.ps1 -ProjectRoot $env:GITHUB_WORKSPACE -Tag v1.92.9b
+      - name: Verify embedded data and scanner invariants
+        run: python tools/verify_project.py
+      - name: Configure without build-time downloads
+        shell: pwsh
+        run: >-
+          cmake --fresh -S . -B build -G "Visual Studio 17 2022" -A x64
+          "-DSHAIHULUD_IMGUI_SOURCE_DIR:PATH=$env:GITHUB_WORKSPACE/third_party/imgui-1.92.9b"
+          "-DCMAKE_SUPPRESS_REGENERATION:BOOL=ON"
+      - name: Build
+        run: cmake --build build --config Release --parallel
+      - name: Run parser regression tests
+        run: ctest --test-dir build -C Release --output-on-failure
+      - name: Assemble portable folder
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force dist | Out-Null
+          Copy-Item build/Release/ShaiHulud2Scanner.exe dist/
+          Copy-Item build/Release/data dist/data -Recurse
+          Copy-Item build/Release/malicious_hashes.json dist/
+          if (Test-Path build/Release/Dear-ImGui-LICENSE.txt) {
+            Copy-Item build/Release/Dear-ImGui-LICENSE.txt dist/
+          }
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ShaiHulud2Scanner-Windows-x64-v1.7.6
+          path: dist

@@ -1,0 +1,13 @@
+/build/
+/dist/
+/third_party/
+/.vs/
+/CMakeSettings.json
+*.user
+*.suo
+debug.log
+debug.previous.log
+StepSecurity-response-latest.html
+StepSecurity-normalized-latest.csv
+
+StepSecurity-api-page-latest.json
