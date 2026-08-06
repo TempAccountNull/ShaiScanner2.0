@@ -23,7 +23,7 @@ A **CRITICAL** result means the scanner found an exact match for a known malicio
 
 ## Usage
 1. Download the latest release.
-2. Run `Shai-Hulud 2.0 Scanner.exe`.
+2. Run `ShaiHulud2Scanner.exe`.
 3. Select the drives you want to scan.
 4. Synchronize the threat-intelligence feeds when an internet connection is available.
 5. Start the system scan.
