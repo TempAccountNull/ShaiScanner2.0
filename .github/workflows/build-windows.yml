@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: windows-2022
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Prepare pinned Dear ImGui once
         shell: pwsh
         run: ./tools/prepare_imgui.ps1 -ProjectRoot $env:GITHUB_WORKSPACE -Tag v1.92.9b
@@ -42,7 +42,7 @@ jobs:
           if (Test-Path build/Release/Dear-ImGui-LICENSE.txt) {
             Copy-Item build/Release/Dear-ImGui-LICENSE.txt dist/
           }
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: ShaiHulud2Scanner-Windows-x64-v1.7.6
           path: dist
