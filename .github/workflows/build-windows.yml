@@ -11,6 +11,8 @@ on:
       - "CMakeLists.txt"
       - "build-release.bat"
       - "malicious_hashes.json"
+      - ".gitattributes"
+      - ".github/workflows/build-windows.yml"
 
 jobs:
   build:

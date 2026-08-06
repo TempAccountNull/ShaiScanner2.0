@@ -79,6 +79,12 @@ def cpp_w(value: str) -> str:
     )
 
 
+def canonical_feed_bytes(path: Path) -> bytes:
+    """Return feed bytes with platform-specific line endings normalized."""
+    data = path.read_bytes()
+    return data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+
+
 records: dict[tuple[str, str, str], int] = {}
 safedep_iocs: list[tuple[str, str, str]] = []
 
@@ -290,7 +296,7 @@ for name, feed in FEEDS.items():
     manifest["feeds"][name] = {
         "url": feed["url"],
         "file": feed["file"],
-        "sha256": sha256(path.read_bytes()).hexdigest(),
+        "sha256": sha256(canonical_feed_bytes(path)).hexdigest(),
         "source_mask": feed["mask"],
     }
 with (DATA / "feed-manifest.json").open(

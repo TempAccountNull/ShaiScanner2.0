@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep generated feed hashes stable on Windows and Linux runners.
+data/*.csv text eol=lf
+data/*.json text eol=lf
+src/AffectedPackages.generated.cpp text eol=lf
+tools/*.py text eol=lf
+.github/workflows/*.yml text eol=lf
+
+# Binary assets must never be line-ending normalized.
+*.ico binary
+*.zip binary
